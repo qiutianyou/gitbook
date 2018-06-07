@@ -5,6 +5,8 @@
 
 JVM管理两种类型的内存：堆和非堆。通俗说，堆是留给开发者使用的，用来运行java代码的；非堆是JVM留给自己的，方法区、内部处理/优化的内存，每个类的方法/构造方法、类结构都在非堆内存中。
 ## 2.JVM内存模型
+
+![https://img-blog.csdn.net/20170301164516274?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdxaWx1R3J1YmJ5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast](https://img-blog.csdn.net/20170301164516274?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdxaWx1R3J1YmJ5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 #### 2.1 方法区
 也称”永久代” 、“非堆”， 它用于存储虚拟机加载的类信息、常量、静态变量、是各个线程共享的内存区域。默认最小值为16MB，最大值为64MB，可以通过-XX:PermSize 和 -XX:MaxPermSize 参数限制方法区的大小。
 运行时常量池：是方法区的一部分，Class文件中除了有类的版本、字段、方法、接口等描述信息外，还有一项信息是常量池，用于存放编译器生成的各种符号引用，这部分内容将在类加载后放到方法区的运行时常量池中。
