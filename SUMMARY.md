@@ -12,7 +12,6 @@
   - [堆内存详解](jvm/deap.md)
   - [栈内存详解](jvm/stack.md)
   - [如何理解栈](jvm/stack_explain.md)
-* JMM
-  - [JMM&内存可见性讲解](jmm/jmm.md)
+  - [JMM&内存可见性讲解](jvm/jmm.md)
 * react
   - react简介
