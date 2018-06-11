@@ -9,7 +9,10 @@
   - [Java Virtual Machine](jvm/jvm.md)
   - [Java内存组成](jvm/jvmMemory.md)
   - [堆栈的区别](jvm/deap&stack.md)
-  - [深入理解堆内存](jvm/deap.md)
-  - [深入理解栈内存](jvm/stack.md)
+  - [堆内存详解](jvm/deap.md)
+  - [栈内存详解](jvm/stack.md)
+  - [如何理解栈](jvm/stack_explain.md)
+* JMM
+  - [Java Memory Mode](jmm/jmm.md)
 * react
   - react简介
