@@ -13,5 +13,6 @@
   - [栈内存详解](jvm/stack.md)
   - [如何理解栈](jvm/stack_explain.md)
   - [JMM&内存可见性讲解](jvm/jmm.md)
+  - [JVM内存管理及垃圾回收](jvm/gc_01.md)
 * react
   - react简介
