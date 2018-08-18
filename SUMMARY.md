@@ -5,6 +5,10 @@
   - [java简介](java/jianjie.md)
   - [什么是面向对象？](java/oop.md)
   - [Java修饰符](java/decorate.md)
+  - [List](java/list.md)
+  - [Map](java/map.md)
+* design
+  - [设计模式](design/design.md)
 * JVM
   - [Java程序执行流程](jvm/JavaExecute.md)
   - [Java Virtual Machine](jvm/jvm.md)
