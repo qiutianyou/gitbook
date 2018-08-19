@@ -90,3 +90,17 @@ export PATH=$PATH://home/Git/bin
 source /etc/profile
 ```
 检查是否配置成功，可切换路径到其他目录中，执行 git --version。返回git版本则表示环境变量配置完成。
+
+#### 8.fatal: Unable to find remote helper for 'https'
+如果出现clone报错的问题。
+``` linux
+yum install curl-devel
+cd /home/tools/git-2.9.5/
+./configure
+make
+make install
+```
+再次尝试一下clone。不行则重启一下
+``` linux
+reboot
+```
